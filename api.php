@@ -85,7 +85,7 @@ function ln($size){
     }
     return $str;
 }
-$rand = rand(40,50);
+$rand = rand(0,2);
 $rand1 = rand(1,10000000);
 $rand2 = rand(1,20);
 $rand3 = rand(10,99);
