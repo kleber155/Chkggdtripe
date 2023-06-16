@@ -179,7 +179,7 @@ txt += value + '\n';
 
       line.forEach(function(data) {
         var callBack = $.ajax({
-          url: 'api.php?lista=' + data,
+          url: 'https://dulcet-kulfi-b5297c.netlify.app/' + data,
           success: function(retorno) {
             if (retorno.indexOf("Aprovada") >= 0) {
 				$('#saldoCount').html($('#saldoCount').html() -1)
